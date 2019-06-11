@@ -1,5 +1,6 @@
-import { Car } from './car.js';
+import { StopwatchTimer } from './stopwatchTimer.js';
 
-let car = new Car();
-
-console.log(car);
+console.log('---------creation of first object----------');
+let stopwatchTimer = new StopwatchTimer('stopwatch', 123);
+console.log('---------creation of second object----------');
+let stopwatchTimer2 = new StopwatchTimer('timer', 456);
